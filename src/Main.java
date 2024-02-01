@@ -1,15 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int amount = 200;
-        int x = 1300;
+        int start_balance = 200;
+        int replenishment_of_balance = 1400;
 
         int bonus;
-        if (x > 1000) {
+        if (replenishment_of_balance > 1000) {
             bonus = 1;
-        } else{
+        } else {
             bonus = 0;
         }
-        System.out.println(x / 100 + amount+x + "Итоговая сумма на счету");
+
+        System.out.println(replenishment_of_balance / 100 + start_balance + replenishment_of_balance + "Итоговая сумма на счету");
     }
 
 }
