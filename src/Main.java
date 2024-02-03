@@ -5,7 +5,7 @@ public class Main {
 
         int bonus;
         if (replenishmentOfBalance > 1000) {
-            bonus = replenishmentOfBalance/100;
+            bonus = replenishmentOfBalance / 100;
         } else {
             bonus = 0;
         }
